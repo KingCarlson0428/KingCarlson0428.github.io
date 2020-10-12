@@ -7,11 +7,15 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <header>
 
         <!-- Wrap the top-level heading in a header element -->
         
             <h1>Planets Data</h1>
-        
+        </header>
+        <main>
+            <table>
+                <caption>
         <!-- Add a main element to contain the table -->
             
             <!-- Add the table element. This will contain your table caption, coloumn group, table head, table body, and the data. -->
@@ -27,5 +31,96 @@
                 <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
                     
                 <!-- Please note that you do NOT need to add a table footer for this assignment. -->
+                </caption>
+                <colgroup>
+                    <col title="Planet Type" span="2">
+                    <col title="Name">
+                    <col title="Diameter">
+                    <col title="Density">
+                    <col title="Gravity">
+                    <col title="Length of day">
+                    <col title="Distance from Sun">
+                    <col title="Mean temperature">
+                    <col title="Number of moons">
+                    <col title="Notes">
+                    <col title="Image">
+                    <col title="">
+                </colgroup>
+                <thaed>
+                    <tr>
+                        <th colspan="2" scope="col"></th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Mass (10<sup>24</sup>kg)</th>
+                        <th scope="col">Diameter (km</th>
+                        <th scope="col">Density (kg/m<sup>3</sup>)</th>
+                        <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+                        <th scope="col">Length of day (hours)</th>
+                        <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+                        <th scope="col">Mean temperature (°C)</th>
+                        <th scope="col">Number of moons</th>
+                        <th scope="col">Notes</th>
+                        <th scope="col">Image</th>
+                    </tr>
+                </thaed>
+                <tbody>
+                    <!--Start of Terrestial Planets -->
+                    <tr>
+                        <td colspan="2" rowspan="4">Terrestial planets</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <!--End of Terrestial Planets -->
+                    <!-- start of Jovian Planets -->
+                    <tr>
+                        <td rowspan="4">Jovain planets</td>
+                        <td rowspan="2">Gas Giants</td>
+                        <td>Jupiter</td>
+                        <td>1898</td>
+                        <td>142,984</td>
+                        <td>1326</td>
+                        <td>23.1 </td>
+                        <td>9.9</td>
+                        <td>778.6</td>
+                        <td>-110</td>
+                        <td>67</td>
+                        <td>The Largest Planet</td>
+                        <td><img src="images/jupiter.jpg" alt="picture of Jupiter"></td>
+                    </tr>
+                    <!--End of Jovian Planets -->
+                    <!--Start of Ice Giants -->
+                    <tr>
+                        <td rowspan="2">Ice giants</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <!--End of Ice Giants -->
+                    <!--start of Dwarf Planets -->
+                    <tr>
+                        <td rowspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><img src="images/pluto.jpg" alt="picture of pluto"></td>
+                    </tr>
+                    <!--End of Dwarf Planets -->
+                </tbody>
+            </table>
+        </main>
     </body>
 </html>
