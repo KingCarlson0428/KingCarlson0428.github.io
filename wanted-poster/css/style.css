@@ -66,6 +66,7 @@ h1 {
     font-size:6rem;
     color:darkred;
     letter-spacing: .5rem;
+    text-align:center;
 }
 
 h2 {
@@ -73,12 +74,14 @@ h2 {
     color:darkred;
     letter-spacing: 0.25rem;
     font-weight: normal;
+    text-align: center;
 }
 
 h3 { 
     font-size: 2rem;
     font-weight: normal;
     color: #000;
+    text-align: center;
 }
 
 h4 {
@@ -87,6 +90,7 @@ h4 {
     letter-spacing: 0.25rem;
     font-weight: normal;
     padding: 0rem 0rem 1.125rem 0rem;
+    text-align: center;
 }
 
 h5 {
@@ -94,7 +98,8 @@ h5 {
     color: #fff;
     background-color: #333;
     margin: 0.25rem 0rem 0rem 0rem;
-    padding: 0.5rem;   
+    padding: 0.5rem;
+    text-align: center;
 }
 
 /* Section & Paragraph */
