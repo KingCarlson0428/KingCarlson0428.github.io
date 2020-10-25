@@ -72,6 +72,7 @@ h2 {
     font-size: 3rem;
     letter-spacing: 0.25rem;
     font-weight: normal;
+    color:darkred;
 }
 
 h3 { 
@@ -85,6 +86,7 @@ h4 {
     letter-spacing: 0.25rem;
     font-weight: normal;
     padding: 0rem 0rem 1.125rem 0rem;
+    color:darkred;
 }
 
 h5 {
